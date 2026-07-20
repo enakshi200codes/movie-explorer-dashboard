@@ -1,16 +1,55 @@
-# React + Vite
+# 🎬 Movie Explorer Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern Netflix-inspired movie browsing application built with React and the TMDB API. Explore trending movies, search titles, view detailed information, and manage your personal watchlist with a clean, responsive user interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- Firebase Authentication (Login / Signup)
+- Browse Currently Airing, Popular, Top Rated, and Upcoming Movies
+- Search Movies by Title
+- Movie Details Page with Trailer, Overview, Runtime, Genres, Language, Popularity & Vote Count
+- Add and Remove Movies from Watchlist
+- View your Watchlist Statistics
+  - Total Movies
+  - Average Rating
+  - Most Common Genre
+- Infinite Horizontal Scrolling
+- Persistent Watchlist using LocalStorage
+- Error Handling with Retry Option
+- Fully Responsive Design
+- Smooth Hover Animations and UI Effects
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the Oxlint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- React
+- React Router
+- Firebase Authentication
+- TMDB API
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- LocalStorage
+
+---
+
+
+## 🌟 Future Improvements
+
+- Personalized Movie Recommendations
+- Filter Movies by Genre
+- Pagination Controls
+- User Profiles
+- Better Theme Customization
+
+---
+
+## 🙏 Acknowledgements
+
+- TMDB API
+- Firebase
+- React
+- Vite
