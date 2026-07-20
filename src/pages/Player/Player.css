@@ -1,0 +1,54 @@
+.player {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 80px 0 50px;
+  align-items: center;
+}
+
+.player-video {
+  width: 90%;
+  max-width: 1000px;
+  aspect-ratio: 16/9;
+  border: none;
+  border-radius: 10px;
+}
+
+.player img {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 50px;
+  cursor: pointer;
+}
+
+.player-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.movie-details {
+    width: 90%;
+    max-width: 1000px;
+    margin-top: 40px;
+    display: grid;
+    gap: 20px;
+}
+
+.detail-item {
+  background: #1f1f1f;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.movie-details h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.detail-item p {
+  color: #d3d3d3;
+  line-height: 1.6;
+}
